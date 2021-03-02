@@ -1,0 +1,151 @@
+
+body {
+   margin: 0;
+   background-color: #f7c887;
+}
+
+/* Navbar */
+#Nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#77a6f7;
+ 
+
+}
+#Nav li{
+    float: left;
+    border-right:2px solid white;
+    
+   
+}
+
+#Nav li a{
+    display: block;
+    color:black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Nav a:hover{
+    background-color:#D3e3fc;
+}
+
+ .active {
+    background-color:#f7c887; 
+ }
+
+
+ h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h2{
+   font-family: 'Patrick Hand', cursive;
+}
+
+#introduction {
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+ #who {
+    display:inline-block;
+    background-color: #D3e3fc;
+    border:4px #77a6f7 solid; 
+    text-align: center;
+    vertical-align: top;
+    margin: 1em;
+}
+
+
+.hoop{
+    width:300px;
+    height:auto; 
+}
+
+#hobbies {
+    display:inline-block;
+    background-color: #D3e3fc;
+    border:4px #77a6f7 solid; 
+    text-align: center;
+    vertical-align: top;
+    margin: 1em;
+}
+
+#favourite {
+    display:inline-block;
+    background-color: #D3e3fc;
+    border:4px #77a6f7 solid; 
+    text-align: center;
+    vertical-align: top;
+    margin: 1em;
+}
+
+.box{
+    display:inline-block;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    vertical-align:middle;
+    padding: 2%;
+    font-family: 'Patrick Hand', cursive;
+    font-size:19px;
+
+}
+
+.tech-pic{
+    width:250px;
+    height:auto;
+}
+
+#tech-experience{
+    display:inline-block;
+    background-color: #D3e3fc;
+    border:4px #77a6f7 solid; 
+    text-align: center;
+    vertical-align: top;
+    margin: 1em;
+}
+
+#footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: #77a6f7;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+  }
+
+#footer-index{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: #77a6f7;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#footer-projects{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: #77a6f7;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+}
