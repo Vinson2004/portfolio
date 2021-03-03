@@ -1,10 +1,11 @@
 
+/* Styles for the whole body */
 body {
    margin: 0;
    background-color: #f7c887;
 }
 
-/* Navbar */
+/* Navigation bar style */
 #Nav ul{
   list-style-type: none;
   margin: 0;
@@ -31,25 +32,29 @@ body {
     font-weight: bold;
 }
 
+/* Navigation bar bover colour change effect */
 #Nav a:hover{
     background-color:#D3e3fc;
 }
 
+/* Navigation bar click on page colour change effect */
  .active {
     background-color:#f7c887; 
  }
 
-
+/* Style for all h1 headings */
  h1{
     text-align: center;
     font-size: 40px;
     font-family: 'Patrick Hand', cursive;
 }
 
+/* Style for h2 headings */
 h2{
    font-family: 'Patrick Hand', cursive;
 }
 
+/* Style for homepage paragraph */
 #introduction {
     color:black;
     font-size: 20px;
@@ -57,7 +62,7 @@ h2{
     font-family: 'Patrick Hand', cursive;
 }
 
-
+/* Makes and styles boxes for the "Who am I?" Section */
  #who {
     display:inline-block;
     background-color: #D3e3fc;
@@ -67,12 +72,13 @@ h2{
     margin: 1em;
 }
 
-
+/* Adjusting the size of basketball hoop image */
 .hoop{
     width:300px;
     height:auto; 
 }
 
+/* Makes and styles boxes for the "Hobbies" Section */
 #hobbies {
     display:inline-block;
     background-color: #D3e3fc;
@@ -82,6 +88,7 @@ h2{
     margin: 1em;
 }
 
+/* Makes and styles boxes for the "Favourite Foods and Drink" Section */
 #favourite {
     display:inline-block;
     background-color: #D3e3fc;
@@ -91,6 +98,7 @@ h2{
     margin: 1em;
 }
 
+/* Styles pictures and text inside all the boxes */
 .box{
     display:inline-block;
     width: 30%;
@@ -103,11 +111,13 @@ h2{
 
 }
 
+/* Adjust the size of the "Arduino Shoes" image*/
 .tech-pic{
     width:250px;
     height:auto;
 }
 
+/* Makes and styles boxes for the "Tech Experence" Section */
 #tech-experience{
     display:inline-block;
     background-color: #D3e3fc;
@@ -117,6 +127,7 @@ h2{
     margin: 1em;
 }
 
+/* Style the footer for "About Me" and "Tech Experience" pages */
 #footer {
     position:relative;
     left: 0;
@@ -128,6 +139,7 @@ h2{
     font-family: 'Patrick Hand', cursive;
   }
 
+/* Styles the footer for the Homepage */
 #footer-index{
     position:fixed;
     left: 0;
@@ -139,6 +151,7 @@ h2{
     font-family: 'Patrick Hand', cursive;
 }
 
+/* Styles the footer for the Projects page */
 #footer-projects{
     position:fixed;
     left: 0;
