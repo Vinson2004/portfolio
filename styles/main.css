@@ -151,17 +151,6 @@ h2{
     font-family: 'Patrick Hand', cursive;
 }
 
-/* Styles the footer for the Projects page */
-#footer-projects{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width:100%;
-    background-color: #77a6f7;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Patrick Hand', cursive;
-}
 
 .cool{
     margin: 0.20cm 0.30cm;
