@@ -162,3 +162,23 @@ h2{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
 }
+
+.cool{
+    margin: 0.20cm 0.30cm;
+    padding: 35px;
+    width: 30%;
+    background-color:#D3e3fc;
+    vertical-align: middle;
+    border: #77a6f7 solid 0.15cm ;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 15px;
+   
+}
+   
+ #buttons{
+       text-align: center;
+}
+   
+ #buttons button:hover{
+       background-color:#77a6f7;
+}
