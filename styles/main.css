@@ -151,7 +151,7 @@ h2{
     font-family: 'Patrick Hand', cursive;
 }
 
-
+/* Styles for the buttons on projects page*/
 .cool{
     margin: 0.20cm 0.30cm;
     padding: 35px;
@@ -162,13 +162,14 @@ h2{
     font-family: 'Patrick Hand', cursive;
     font-size: 15px;
     border-radius: 8px;
-   
 }
-   
+
+/* Align project page buttons to the center of the page */
 #buttons{
        text-align: center;
 }
-   
+
+/* Hover effect for projects page buttons */
 #buttons button:hover{
        background-color:#77a6f7;
 }
