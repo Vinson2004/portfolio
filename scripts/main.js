@@ -1,13 +1,16 @@
 
+// In Class Work
 function welcome() {
     let username = prompt("What is your name?");    
     let message = "Welcome, " + username;
     document.getElementById('saywelcome').innerHTML = message; 
 }
 
+// Functions for all buttons when clicked
  function f1(){
 
      var change = document.getElementById("button1");
+     //Changes the title in the button upon click 
      change.innerHTML = 'Project 1 Coming Soon...';
      
 }
