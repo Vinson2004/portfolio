@@ -1,4 +1,4 @@
-  //Function for the exersice 1 button (determining the larger number between 2 numbers)
+ //Function for the exersice 1 button (determining the larger number between 2 numbers)
  function largerNumber() {
 
      // Created and defined variables and prompts for the user 
