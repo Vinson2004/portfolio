@@ -161,7 +161,7 @@ function centuryFromYear() {
 
      // Created and defined variables and prompt for the user
      let year = parseInt(prompt("Enter year: "));
-     let cenYear = Math.ceil(year / 100); // Divide the year given by 100 and round up to the nearest integer
+     let cenYear = Math.ceil(year / 100); // Divides the year given by 100 and rounds up to the nearest integer
 
      // Outputs the result onto the button
      document.getElementById("button7").innerHTML = "The century is: " + cenYear;
