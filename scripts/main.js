@@ -1,5 +1,5 @@
- //Function for the exersice 1 button (determining the larger number between 2 numbers)
- function largerNumber() {
+//Function for the exercise 1 button (Determining the larger number between 2 numbers)
+function largerNumber() {
 
      // Created and defined variables and prompts for the user 
      let num1 = parseInt(prompt("Enter your first number: "));
@@ -25,8 +25,8 @@
 
 }
 
- //Function for the exersice 2 button (determining the sign of products for 3 numbers)
- function signOfProduct() {
+//Function for the exersice 2 button (Determining the sign of products for 3 numbers)
+function signOfProduct() {
 
      // Created and defined variables and prompts for the user
      let signNum1 = parseInt(prompt("Enter your first integer: "));
@@ -51,8 +51,8 @@
 
 }
 
- //Function for the exersice 3 button (ordering 3 numbers from greatest to least)
- function threeNumberSort() {
+//Function for the exercise 3 button (Ordering 3 numbers from greatest to least)
+function threeNumberSort() {
 
      // Created and defined variables and prompts for the user
      let sort1 = parseInt(prompt("Enter your first number: "));
@@ -88,13 +88,13 @@
 
 }
 
- //Function for the exersice 4 button (summing the multiples of 3 under 1000 using a for loop)
- function forSumThrees() {
+//Function for the exercise 4 button (Summing the multiples of 3 under 1000 using a for-loop)
+function forSumThrees() {
 
      // Variable to store the sum 
      let forSum = 0;
 
-         //(For Loop) Sets "i" to 1 and increments "i" each loop as long as it is under 1000
+         //(For-Loop) Sets "i" to 1 and increments "i" each loop as long as it is under 1000
          for (let i = 1; i < 1000; i++) {
 
              //(Conditional statement) Numbers evenly divisible by 3 will have a remainder of 0
@@ -109,14 +109,14 @@
 }
 
 
- //Function for the exersice 5 button (summing the multiples of 3 under 1000 using a while loop)
- function whileSumThrees() {
+//Function for the exercise 5 button (Summing the multiples of 3 under 1000 using a while-loop)
+function whileSumThrees() {
 
      // Variable to store the sum and variable for the while loop
      let whileSum = 0;
      let i = 0;
 
-         // (While loop) Loop as long as "i" is under 1000
+         // (While-loop) Loop as long as "i" is under 1000
          while (i < 1000) {
 
           i++; // Increment "i" by 1 each loop
@@ -132,8 +132,8 @@
 
 }
 
- //Function for the exersice 6 button (Changing mutiples of 4 and 10 under 100 to words in the console)
- function tenFour() {
+//Function for the exercise 6 button (Changing mutiples of 4 and 10 under 100 to words in the console)
+function tenFour() {
 
      //(For Loop) Sets "i" to 1 and increments "i" each loop as long as it is under 100
      for (let i = 1; i <= 100; i++) {
@@ -156,8 +156,8 @@
 
 }
 
- //Function for the exersice 7 button (determining the century when given a year)
- function centuryFromYear() {
+//Function for the exercise 7 button (Determining the century when given a year)
+function centuryFromYear() {
 
      // Created and defined variables and prompt for the user
      let year = parseInt(prompt("Enter year: "));
@@ -168,8 +168,8 @@
 
 }
 
- //Function for the exersice 8 button (determining the third angle of a triangle when given 2 angles)
- function thirdAngle() {
+//Function for the exercise 8 button (Determining the third angle of a triangle when given 2 angles)
+function thirdAngle() {
 
      // Created and defined variables and prompts for the user
      let angle1 = parseInt(prompt("Enter first triangle angle"));
@@ -179,10 +179,10 @@
      // Outputs the result onto the button
      document.getElementById("button8").innerHTML = "The third angle is: " + angle3;
 
-         // Conditional statement 
-         if ((180 - (angle1 + angle2)) < 0 || (angle1 + angle2) > 180 || angle1 < 0 || angle2 < 0) {
-          document.getElementById("button8").innerHTML = "Invalid entry. Please enter two angles of a triangle again!";
-        }
+     // Conditional statement 
+     if ((180 - (angle1 + angle2)) < 0 || (angle1 + angle2) > 180 || angle1 < 0 || angle2 < 0) {
+      document.getElementById("button8").innerHTML = "Invalid entry. Please enter two angles of a triangle again!";
+    }
 
 }
 
