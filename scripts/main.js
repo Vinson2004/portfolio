@@ -195,9 +195,9 @@ function encryption(){
   //For-loop for each word in the wordList 
   for(let i = 0; i < wordList.length; i= i+1){
 
-     firstLetter = wordList[i][0]; //save first letter of the word
-     cipherText += (wordList[i]).slice(1); // add the word to the cipherText string but with the first letter sliced off
-     cipherText += firstLetter + "!? "; //add the first letter and "!?" to the ending of the word
+     firstLetter = wordList[i][0]; //Save first letter of the word
+     cipherText += (wordList[i]).slice(1); //Add the word to the cipherText string but with the first letter sliced off
+     cipherText += firstLetter + "!? "; //Add the first letter and "!?" to the ending of the word
      
   }
 
