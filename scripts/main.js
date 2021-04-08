@@ -180,9 +180,58 @@ function thirdAngle() {
 
 }
 
-function f9() {
+//Function for encryption assignment 
+function encryption(){
+  //Prompts the user for a plaintext message and outputs an encrypted version of the message 
+  
+  // Created prompt for the user and defined the variables 
+  let plainText = prompt ("Please enter a message you wish to encrypt: ");
+  let cipherText = "";
+  let firstLetter = "";
+  let wordList = plainText.split(" "); //Splits string around the spaces to create a list 
 
-  var change = document.getElementById("button9");
-  change.innerHTML = 'Project 9 Coming Soon...';
+  wordList.reverse();//Reverses the order of letters and words in wordList
+
+  //For-loop for each word in the wordList 
+  for(let i = 0; i < wordList.length; i= i+1){
+
+     firstLetter = wordList[i][0]; //save first letter of the word
+     cipherText += (wordList[i]).slice(1); // add the word to the cipherText string but with the first letter sliced off
+     cipherText += firstLetter + "!? "; //add the first letter and "!?" to the ending of the word
+     
+  }
+
+  //Replaces vowels in the cipherText string to its specified number and outputs the result onto the button
+  document.getElementById("button9").innerHTML = cipherText.replace(/a/g, "1").replace(/e/g, "2").replace(/i/g, "3").replace(/o/g, "4").replace(/u/g, "5");
+    
+}
+
+//Function for decryption assignment 
+function decryption(){
+  //Prompts the user for the encrypted message and outputs the decrypted version of the message 
+
+  // Created prompt for the user and defined the variables
+  let cipherText = prompt("Please enter the message you wish to decrypt: ");
+  let plainText  = "";
+  let lastLetter = "";
+  let cipherList = cipherText.split(" "); //Splits string around the spaces to create a list 
+
+
+  cipherList.reverse();//Reverses the order of letters and words in cipherList
+
+
+  //For-loop for each word in the cipherList
+  for(let i = 0; i < cipherList.length; i= i+1){
+
+     const thirdBack = cipherList[i].length -3; //Set constant for the third letter from the end of each word on the cipherList
+     lastLetter = cipherList[i][thirdBack]; //Saves the third letter from the end of each word
+
+     //Adds lastLetter to the front of the word, then adds the word to the plainText string with the last 3 letter/symbols sliced off, followed by a space
+     plainText += lastLetter + (cipherList[i]).slice(0,-3) + " "; 
+
+  }
+
+  //Replaces numbers in the plainText string to its specified vowel and outputs the result onto the button
+  document.getElementById("button10").innerHTML = plainText.replace(/1/g, "a").replace(/2/g, "e").replace(/3/g, "i").replace(/4/g, "o").replace(/5/g, "u");
 
 }
