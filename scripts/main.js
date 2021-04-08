@@ -216,19 +216,15 @@ function decryption(){
   let lastLetter = "";
   let cipherList = cipherText.split(" "); //Splits string around the spaces to create a list 
 
-
   cipherList.reverse();//Reverses the order of letters and words in cipherList
-
 
   //For-loop for each word in the cipherList
   for(let i = 0; i < cipherList.length; i= i+1){
 
      const thirdBack = cipherList[i].length -3; //Set constant for the third letter from the end of each word on the cipherList
      lastLetter = cipherList[i][thirdBack]; //Saves the third letter from the end of each word
-
-     //Adds lastLetter to the front of the word, then adds the word to the plainText string with the last 3 letter/symbols sliced off, followed by a space
-     plainText += lastLetter + (cipherList[i]).slice(0,-3) + " "; 
-
+     plainText += lastLetter + (cipherList[i]).slice(0,-3) + " "; //Adds lastLetter to the front of the word, then adds the word to the plainText string with the last 3 letter/symbols sliced off, followed by a space
+     
   }
 
   //Replaces numbers in the plainText string to its specified vowel and outputs the result onto the button
